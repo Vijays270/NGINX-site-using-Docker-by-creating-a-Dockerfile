@@ -2,15 +2,25 @@
 ## NGINX site using Docker by creating a Dockerfile by following steps:
 
 root@ip-172-31-41-40:~# apt update
+
 root@ip-172-31-41-40:~# apt-get install apt-transport-https ca-certificates curl software-properties-common
+
 root@ip-172-31-41-40:~# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
 root@ip-172-31-41-40:~# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
 root@ip-172-31-41-40:~# apt-get update
+
 root@ip-172-31-41-40:~# apt-get install docker-ce
+
 root@ip-172-31-41-40:~# systemctl status docker
+
 root@ip-172-31-41-40:~# mkdir ~/mynginx
+
 root@ip-172-31-41-40:~/mynginx# mkdir content
+
 root@ip-172-31-41-40:~/mynginx# cd content
+
 root@ip-172-31-41-40:~/mynginx/content# vi index.html
 
 test site
