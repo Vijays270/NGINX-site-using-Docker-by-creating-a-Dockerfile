@@ -80,7 +80,9 @@ root@ip-172-31-41-40:~/mynginx/content# docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                               NAMES
 6e9cd6b87ca5   mynginximage   "/docker-entrypoint.…"   11 seconds ago   Up 11 seconds   0.0.0.0:80->80/tcp, :::80->80/tcp   mynginx
 
+## Search the site through IP
 
+http://16.171.19.221/
 
 
 
